@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Lizzo Loader",
+    "description": "Open some juicy links!",
+    "version": "0.2",
+  
+    "icons": {
+      "128": "lizzo_icon.png"
+    },
+  
+    "permissions": [
+      "tabs", "<all_urls>"
+    ],
+  
+    "browser_action": {
+      "default_icon": "lizzo_icon.png",
+      "default_popup": "popup.html"
+    }
+  }
